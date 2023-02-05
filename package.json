@@ -1,0 +1,16 @@
+{
+    "name": "ai-protocol",
+    "version": "0.0.1",
+    "description": "TRON AI Project",
+    "scripts": {
+    },
+    "repository": "git@github.com:tronprotocol/ai-protocol.git",
+    "author": "TRON Protocol",
+    "license": "UNLICENSED",
+    "devDependencies": {
+    },
+    "dependencies": {
+    },
+    "resolutions": {
+    }
+  }
