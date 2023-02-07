@@ -1,0 +1,1 @@
+FROM tronbox/tre:latest
