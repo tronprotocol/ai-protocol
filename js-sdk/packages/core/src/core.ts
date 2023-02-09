@@ -123,4 +123,12 @@ export class Contract {
             throw new Error(error);
         }
     };
+
+  deploy = async (...args: any[]): Promise<any> => {
+    let tronWeb = tronObj.tronWeb;
+    if (!tronWeb) {
+      tronWeb = this._mainchain;
+    }
+    return await tronWeb.transactionBuilder.createSmartContract(...args);
+  };
 }
